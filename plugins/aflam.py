@@ -10,7 +10,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, 
 from config import get_bot_information
 
 
-𓆩 ━━━━ 𝐋𝐨𝐭𝐮𝐬 ━━━━━ 𓆪
+
 
 # Replay Text
 @Client.on_callback_query(filters.regex("^aflamAR (\\d+)$"))
@@ -67,7 +67,7 @@ async def film(c: Client, m: CallbackQuery):
     await m.message.edit_text("✯ اهلا بيك في قائمة الافلام العربيه\n√", reply_markup=keyboard)
 
 
-𓆩 ━━━━ 𝐋𝐨𝐭𝐮𝐬 ━━━━━ 𓆪
+
 
 @Client.on_callback_query(filters.regex("^comedy (\\d+)$"))
 async def comedy(c: Client, m: CallbackQuery):
