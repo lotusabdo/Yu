@@ -7664,7 +7664,6 @@ async def Xsna55(c: Client, m: CallbackQuery):
     await m.message.reply_audio("https://t.me/UCartoon/397")
 
 
-𓆩 ━━━━ 𝐋𝐨𝐭𝐮𝐬 ━━━━━ 𓆪
 # AFLAM CARTOON #
 @Client.on_callback_query(filters.regex("^fcartoon (\\d+)$"))
 async def fcartoon(c: Client, m: CallbackQuery):
